@@ -4,4 +4,9 @@
 // The "WA" global object is available from anywhere.
 
 console.log('Script started successfully');
-WA.openCoWebSite('https://workadventu.re');
+// WA.openCoWebSite('https://workadventu.re');
+
+WA.onEnterZone('bbb', () => {
+  console.log("Im BBB");
+  WA.openTab('https://meet.uni-leipzig.de/b/arn-t81-mdj-sfh');
+})
