@@ -1,0 +1,2 @@
+(()=>{"use strict";console.log("Script started successfully"),WA.onEnterZone("bbb",(()=>{console.log("Im BBB"),WA.openTab("https://meet.uni-leipzig.de/b/arn-t81-mdj-sfh")}))})();
+//# sourceMappingURL=script.js.map
