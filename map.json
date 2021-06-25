@@ -119,14 +119,14 @@
          "opacity":1,
          "properties":[
                 {
+                 "name":"openWebsite",
+                 "type":"string",
+                 "value":"https:\/\/www.youtube.com\/embed\/ESsWk7e1pXM"
+                }, 
+                {
                  "name":"silent",
                  "type":"bool",
                  "value":true
-                }, 
-                {
-                 "name":"zone",
-                 "type":"string",
-                 "value":"bbb"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -215,7 +215,7 @@
          "value":"script.js"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.6.0",
+ "tiledversion":"1.7.0",
  "tileheight":32,
  "tilesets":[
         {
