@@ -745,6 +745,11 @@
                  "name":"jitsiRoom",
                  "type":"string",
                  "value":"lswt2021_stage"
+                }, 
+                {
+                 "name":"jitsiRoomAdminTag",
+                 "type":"string",
+                 "value":"admin"
                 }],
          "type":"tilelayer",
          "visible":true,
