@@ -85,7 +85,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/docs.google.com\/presentation\/d\/e\/2PACX-1vTolZmvFXVlxRERYWE4st5MG_ukO8V3U8wfrgklTYrWc5XFax5pckR9eRjoXKmlMjvtya8VNU38ixbt\/pub?start=true&loop=true&delayms=5000"
+                 "value":"https:\/\/docs.google.com\/presentation\/d\/e\/2PACX-1vTolZmvFXVlxRERYWE4st5MG_ukO8V3U8wfrgklTYrWc5XFax5pckR9eRjoXKmlMjvtya8VNU38ixbt\/embed?start=true&loop=true&delayms=5000"
                 }],
          "type":"tilelayer",
          "visible":false,
