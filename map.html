@@ -1,10 +1,29 @@
-<div>
-  <img style="width: 800px; height: auto;" alt="guide_map" src="map.svg">
-</div>
 <div style="display: flex; align-items: center;">
-  <img style="display: inline;" src="yellow-arrow-64.png" alt="yellow_arrow">
-  <span style="font-size: 26px;"> - navigates to Poster Presentations</span>
+  <img src="yellow-arrow-64.png" alt="yellow_arrow">
+  <span style="font-size: 26px; padding-left: 20px;">navigates to Poster Presentations</span>
   <span style="width:60px"></span>
-  <img style="display: inline;" src="blue-arrow-64.png" alt="blue_arrow">
-  <span style="font-size: 26px;"> - navigates to the Stage</span>
+  <img src="blue-arrow-64.png" alt="blue_arrow">
+  <span style="font-size: 26px; padding-left: 20px;">navigates to the Stage</span>
 </div>
+<div>
+  <img id="map" style="width: 100%; height: auto;" alt="guide_map" src="map.svg" onclick="changeSize()">
+</div>
+<script type="text/javascript">
+  img = document.getElementById("map");
+
+  function transformOriginalSize(){
+    img.style.width = "";
+  }
+
+  function transformFillScreenSize(){
+    img.style.width = "100%";
+  }
+
+  function changeSize(){
+    if (img.style.width == "100%") {
+      transformOriginalSize();
+    } else {
+      transformFillScreenSize();
+    }
+  }
+</script>
