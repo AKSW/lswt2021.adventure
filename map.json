@@ -157,7 +157,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/www.tib.eu\/"
+                 "value":"https:\/\/de.wikipedia.org\/wiki\/Technische_Informationsbibliothek"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -207,6 +207,12 @@
          "id":60,
          "name":"voting",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"openWebsite",
+                 "type":"string",
+                 "value":"https:\/\/workbench.pcp-on-web.de\/vote-lswt2021\/"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":112,
